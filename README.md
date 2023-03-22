@@ -14,8 +14,5 @@ After looping through all characters, the function returns the ciphertext string
 
 The decrypt() function takes the same parameters as encrypt() and follows a similar procedure. However, it applies the inverse Caesar Cipher formula to shift the characters back to their original values.
 
-The main() function initializes a plaintext string and a shift value, calls the encrypt() function to encrypt the plaintext string using the shift value, and stores the encrypted string in a variable called ciphertext. Then, it calls the decrypt() function to decrypt the ciphertext using the same shift value and stores the decrypted string in a variable called decryptedText.
-
-Finally, it prints the original plaintext, the encrypted ciphertext, and the decrypted text using the print() function.
 
 ![ceaserCipher](https://user-images.githubusercontent.com/87886756/226776055-272d9c8b-dd96-4c58-bfdd-380081fa81cd.png)
